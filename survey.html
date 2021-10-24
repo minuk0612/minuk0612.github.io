@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+body{
+    background-image: url("https://images.pexels.com/photos/5699516/pexels-photo-5699516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+            .form1{
+background-color: rgb(219, 212, 203);
+height: 125vh;
+width: 100vh;
+text-align: center;
+margin: 45vh;
+margin-left: 55vh;
+margin-top: 25vh;
+margin-bottom: 25vh;
+border-radius: 10%;
+border: dashed white;
+box-shadow: 8px 8px 10px 10px white;
+
+            }
+
+            h1{
+                font-family:cursive;
+            
+            }
+label{
+    
+   
+    font-size: larger;
+    margin-left: 20vh;
+    
+    
+}
+input{
+    margin-left: 1vh;
+    text-align: left;
+    height: 5vh;
+    font-size: large;
+
+}
+form{
+    text-align: left;
+    margin: 20px;
+
+}
+p{
+    display: none;
+}
+div:hover p{
+    display: block;
+    color: brown;
+}
+button{
+    font-size: large;
+    border-radius: 20% 30%;
+}
+button:hover{
+    box-shadow: 8px 8px 10px white;
+}
+tr:hover{
+    box-shadow: 8px 8px 10px 10px white;
+
+}
+
+        </style>
+    </head>
+<body>
+<div class="form1">
+<h1><u>Survey Form!!</u></h1>
+<form>
+<table>
+<tr>
+    <th><label>Name:</label></th>
+    <th><input placeholder="First Name"><input placeholder="Last Name"></th>
+</tr>
+
+<tr style="padding: 30vh;">
+
+    <th><label>Email: </label></th>
+    <th colspan=2 ><input placeholder="abc@gmail.com" style="width: 48vh; "></th>
+</tr>
+<tr>
+    <th><h3>Your Experiance:</h3></th>
+    <th><input type="radio" id="star5" name="rating" value="5" style="margin: 0%; width: 20px;"/><label for="star5" title="Outstanding" style="margin: 0%;">5 stars</label>
+        <input type="radio" id="star4" name="rating" value="4"  style="margin: 0%; width: 20px;"/><label for="star4" title="Very Good" style="margin: 0%;">4 stars</label>
+        <input type="radio" id="star3" name="rating" value="3" style="margin: 0%;width: 20px; "/><label for="star3" title="Good" style="margin: 0%;">3 stars</label>
+        <input type="radio" id="star2" name="rating" value="2"  style="margin: 0%;width: 20px;"/><label for="star2" title="Poor" style="margin: 0%;">2 stars</label>
+        <input type="radio" id="star1" name="rating" value="1"  style="margin: 0%;width: 20px;"/><label for="star1" title="Very Poor" style="margin: 0%;">1 star</label>
+    </th>
+    </tr>
+
+<p style="text-align: center;">Please share your experiance with us!!</p>
+<tr>
+<table border="3">
+    <tr><th colspan="1"><h3>How satisfied are you with:</h3></th></tr>
+
+<tr >
+    <td></td>
+    <th> Very UnSatisfied </td>
+    <th>Unsatisfied</td>
+    <th>Neutral</td>
+<th>Satisfied
+</td>
+<th>
+    Very Satisfied
+</td>
+</tr>
+<tr  style="background-color: rgb(219, 204, 186);">
+    <td><b>Purchase</b></td>
+    <td style="text-align: center;"><input type="radio" name="rating" style=" padding: 0%; width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating" style=" padding: 0%;width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating" style=" padding: 0%;width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating" style=" padding: 0%;width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating" style=" padding: 0%;width: 20px;"/> </td>
+
+</tr>
+<tr>
+    <td><b>Service</b></td>
+    <td style="text-align: center;"><input type="radio" name="rating1" style=" padding: 0%; width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating1" style=" padding: 0%;width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating1" style=" padding: 0%;width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating1" style=" padding: 0%;width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating1" style=" padding: 0%;width: 20px;"/> </td>
+
+</tr>
+<tr  style="background-color: rgb(219, 204, 186);">
+    <td><b>Food Quality</b></td>
+    <td style="text-align: center;"><input type="radio" name="rating2" style=" padding: 0%; width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating2" style=" padding: 0%;width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating2" style=" padding: 0%;width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating2" style=" padding: 0%;width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating2" style=" padding: 0%;width: 20px;"/> </td>
+
+</tr>
+<tr>
+    <td><b>Taste</b></td>
+    <td style="text-align: center;"><input type="radio" name="rating3" style=" padding: 0%; width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating3" style=" padding: 0%;width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating3" style=" padding: 0%;width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating3" style=" padding: 0%;width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating3" style=" padding: 0%;width: 20px;"/> </td>
+
+</tr>
+</table>
+</tr>
+<br>
+<th>
+<table border="3" style="text-align: center;">
+    <tr><th colspan="1"><h3>How likely are you to:</h3></th></tr>
+
+<tr >
+    <td></td>
+    <th> Very Unlikely </td>
+    <th>Unlikely</td>
+    <th>Neutral</td>
+<th>Likely
+</td>
+<th>
+    Very Likely
+</td>
+</tr>
+<tr style="background-color: rgb(219, 204, 186);">
+    <td><b>Buy From us Again</b></td>
+    <td style="text-align: center;"><input type="radio" name="rating" style=" padding: 0%; width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating" style=" padding: 0%;width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating" style=" padding: 0%;width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating" style=" padding: 0%;width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating" style=" padding: 0%;width: 20px;"/> </td>
+
+</tr>
+<tr>
+    <td><b> Recommend our products to others  </b></td>
+    <td style="text-align: center;"><input type="radio" name="rating1" style=" padding: 0%; width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating1" style=" padding: 0%;width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating1" style=" padding: 0%;width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating1" style=" padding: 0%;width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating1" style=" padding: 0%;width: 20px;"/> </td>
+
+</tr>
+<tr  style="background-color: rgb(219, 204, 186);">
+    <td><b>Recommend our company to others  </b></td>
+    <td style="text-align: center;"><input type="radio" name="rating2" style=" padding: 0%; width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating2" style=" padding: 0%;width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating2" style=" padding: 0%;width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating2" style=" padding: 0%;width: 20px;"/> </td>
+    <td style="text-align: center;"><input type="radio" name="rating2" style=" padding: 0%;width: 20px;"/> </td>
+
+</tr>
+</table>
+</tr>
+<br>
+<tr >
+    <th colspan="2" ></th>
+    <th>
+<button type="reset"style="margin-left: 10vh; width: 30vh; height:5vh; ">Clear</button></th>
+<th><button type="submit" style="margin-left: 20vh; width: 30vh; height:5vh">Submit</button></th>
+</tr>
+</table>
+</form>
+
+
+
+</div>
+
+
+
+</body>
+
+    </html>
